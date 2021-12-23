@@ -1,5 +1,6 @@
-#PORFIRIY ROMANOVSKIY#           
-                              ![Фото пользователя](/rsschool-cv/img/myself.jpg)
+PORFIRIY ROMANOVSKI 
+===================         
+![Фото пользователя](/rsschool-cv/img/myself.jpg)
 
 **student RS school**
 
@@ -14,11 +15,12 @@ GitHub: porfiriy
  Factory is evil!
 
  MY SKILLS:
--I know the basics of C ++, but I won't lie, at most I can write a calculator or a simple function
+*I know the basics of C ++, but I won't lie, at most I can write a calculator or a simple function
 
--can use git and GitHub
+*can use git and GitHub
 
--can use Unreal Engine and make simple games
+*can use Unreal Engine and make simple games
 
--I use VS CODE and other development tools
+*I use VS CODE and other development tools
 
+my  english level A1
