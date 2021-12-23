@@ -4,9 +4,9 @@ PORFIRIY ROMANOVSKI
 
 **student RS school**
 
-Contact details
-number: +375 33 383 75 58
-email: porf2003@gmail.com
+Contact details  
+number: +375 33 383 75 58  
+email: porf2003@gmail.com  
 GitHub: porfiriy
 
 ##ABOUT ME##
