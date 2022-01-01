@@ -1,0 +1,139 @@
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+body {
+   background: black;
+   color: white;
+}
+.wrapper {
+}
+.header {
+   height: 100px;
+   width: 100%;
+   background: rgb(170, 6, 6);
+}
+.navigation {
+}
+.main div {
+   font-size: 17px;
+
+   display: inline-block;
+   margin: 40px 80px 40px 80px;
+   height: 300px;
+   width: 400px;
+   border: 3px SOLID green;
+}
+h1 {
+   margin: 40px;
+   text-align: center;
+   font-size: 30px;
+}
+h2 {
+   text-align: center;
+   margin: 20px;
+   font-size: 25px;
+}
+.about__me {
+}
+.contacct__details {
+}
+.my__skills {
+}
+.education {
+}
+.my__code {
+}
+
+.footer {
+   background: rgb(170, 6, 6);
+   height: 100px;
+   width: 100%;
+}
+.block {
+}
+.block__nav {
+   display: flex;
+   height: 100px;
+   align-items: center;
+   justify-content: space-around;
+}
+.nav__item {
+}
+.nav__link {
+   font-size: 25px;
+   color: black;
+   margin: 0 50px 0 50px;
+}
