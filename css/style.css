@@ -1,0 +1,165 @@
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background: black;
+   color: white;
+}
+
+.header {
+   height: 100px;
+   width: 100%;
+   background: rgb(170, 6, 6);
+}
+
+.main div {
+   font-size: 17px;
+   line-height: 25px;
+   padding: 10px;
+   display: inline-block;
+   margin: 45px 85px 45px 85px;
+   height: 300px;
+   width: 400px;
+   border: 3px SOLID rgb(251, 7, 7);
+}
+.img {
+   margin: 50px;
+   width: 400px;
+   border: 5px solid red;
+}
+h1 {
+   margin: 40px;
+   text-align: center;
+   font-size: 30px;
+}
+h2 {
+   text-align: center;
+   margin: 20px;
+   font-size: 25px;
+}
+
+#about__me {
+   height: 355px;
+}
+.my__css {
+   color: green;
+   margin: 10px;
+}
+.footer {
+   background: rgb(170, 6, 6);
+   height: 100px;
+   width: 100%;
+}
+.rss__logo {
+   margin: 20px;
+   height: 60px;
+}
+.logo__git {
+   margin: 10px 20px 10px 300px;
+   height: 80px;
+}
+.date {
+   display: inline-block;
+   margin: 35px 20px 10px 200px;
+   font-weight: 900;
+   font-size: 25px;
+   color: black;
+}
+
+.block__nav {
+   display: flex;
+   height: 100px;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.nav__link {
+   font-size: 25px;
+   color: black;
+   margin: 0 50px 0 50px;
+}
+.nav__link:hover {
+   color: white;
+   font-size: 27px;
+}
