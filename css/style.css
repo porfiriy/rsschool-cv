@@ -86,14 +86,11 @@ body {
    background: black;
    color: white;
 }
-.wrapper {
-}
+
 .header {
    height: 100px;
    width: 100%;
    background: rgb(170, 6, 6);
-}
-.navigation {
 }
 
 .main div {
@@ -125,16 +122,6 @@ h2 {
 #about__me {
    height: 355px;
 }
-.contact__details {
-}
-.my__skills {
-}
-
-.education {
-}
-.my__code {
-}
-
 .my__css {
    color: green;
    margin: 10px;
@@ -159,16 +146,14 @@ h2 {
    font-size: 25px;
    color: black;
 }
-.block {
-}
+
 .block__nav {
    display: flex;
    height: 100px;
    align-items: center;
    justify-content: space-around;
 }
-.nav__item {
-}
+
 .nav__link {
    font-size: 25px;
    color: black;
