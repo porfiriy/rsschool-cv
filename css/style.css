@@ -74,7 +74,15 @@ h6 {
    font-weight: 400;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 body {
+   font-family: "Roboto", sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    background: black;
    color: white;
 }
@@ -87,14 +95,21 @@ body {
 }
 .navigation {
 }
+
 .main div {
    font-size: 17px;
-
+   line-height: 25px;
+   padding: 10px;
    display: inline-block;
-   margin: 40px 80px 40px 80px;
+   margin: 45px 85px 45px 85px;
    height: 300px;
    width: 400px;
-   border: 3px SOLID green;
+   border: 3px SOLID rgb(251, 7, 7);
+}
+.img {
+   margin: 50px;
+   width: 400px;
+   border: 5px solid red;
 }
 h1 {
    margin: 40px;
@@ -106,21 +121,43 @@ h2 {
    margin: 20px;
    font-size: 25px;
 }
-.about__me {
+
+#about__me {
+   height: 355px;
 }
-.contacct__details {
+.contact__details {
 }
 .my__skills {
 }
+
 .education {
 }
 .my__code {
 }
 
+.my__css {
+   color: green;
+   margin: 10px;
+}
 .footer {
    background: rgb(170, 6, 6);
    height: 100px;
    width: 100%;
+}
+.rss__logo {
+   margin: 20px;
+   height: 60px;
+}
+.logo__git {
+   margin: 10px 20px 10px 300px;
+   height: 80px;
+}
+.date {
+   display: inline-block;
+   margin: 35px 20px 10px 200px;
+   font-weight: 900;
+   font-size: 25px;
+   color: black;
 }
 .block {
 }
@@ -136,4 +173,8 @@ h2 {
    font-size: 25px;
    color: black;
    margin: 0 50px 0 50px;
+}
+.nav__link:hover {
+   color: white;
+   font-size: 27px;
 }
